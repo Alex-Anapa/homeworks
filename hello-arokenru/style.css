@@ -1,0 +1,33 @@
+body {
+    color: aliceblue;
+}
+
+.header {
+    background-color: rgb(16, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.navup li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
