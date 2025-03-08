@@ -1,0 +1,23 @@
+.block {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.block2 {
+    background-color: rgb(248, 73, 73);
+    width: 100px;
+    height: 100px;
+}
+
+.block h1 span {
+    color: blueviolet;
+}
+
+.blockdown {
+    width: 300px;
+    background-color: blueviolet;
+}
+
+.blockdown span {
+    background-color: rgb(191, 127, 250);
+}
