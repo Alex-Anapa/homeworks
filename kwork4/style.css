@@ -1,0 +1,40 @@
+body {
+    font-family: "Open Sans", "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+.blocks {
+    border-bottom: 2px solid #7d7c7c;
+}
+
+.block_1 {
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.block_2 {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+.block_3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block_4 {
+    text-decoration: overline wavy 2px;
+    word-spacing: 30px;
+    color: rgb(81, 25, 133);
+
+}
+
+
+.block_5 {
+    letter-spacing: 5px;
+    text-decoration: underline solid 3px #2c2b2b;
+
+}
