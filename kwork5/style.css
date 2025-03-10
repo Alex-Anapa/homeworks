@@ -1,0 +1,47 @@
+body {
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    max-height: 600px;
+
+    border: 3px solid #515151;
+    border-radius: 20px 0px 0px 20px;
+
+    background: rgb(182, 252, 229);
+
+    padding: 10px;
+
+    overflow: auto;
+}
+
+.card {
+    background-color: rgb(223, 181, 120);
+
+    width: 400px;
+    height: 350px;
+
+    border: 1px solid #e8c96c;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 10px rgba(40, 40, 40, 0.2) inset;
+
+    padding: 30px;
+    margin: 0 20px 20px;
+
+    overflow: auto;
+
+}
+
+.card_title {
+    font-size: 40px;
+}
+
