@@ -1,0 +1,260 @@
+body {
+    background: #181E34;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    opacity: 1;
+    transition: none;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.header {
+    padding: 30px 0px 36px 0px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_list_item {
+    margin-right: 30px;
+}
+
+.nav_btn {
+    background: #fff;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #1483BC;
+    text-transform: uppercase;
+
+    border-radius: 100px;
+    padding: 14px 30px;
+}
+
+.nav_btn:hover {
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    color: #fff;
+    opacity: 1;
+}
+
+.welcome {
+    background: url("./img/background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 120px 0px;
+}
+
+.welcome_title {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.welcome_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome_desc {
+    display: flex;
+    flex-direction: column;
+    max-width: 436px;
+}
+
+.welcome_desc p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.welcome_desc span {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+.welcome_desc> :first-child {
+    margin-bottom: 15px;
+}
+
+.welcome_btn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.welcome_btn_all {
+    max-width: 320px;
+    padding: 18px 128px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+
+.welcome_btn> :first-child {
+    margin-bottom: 10px;
+}
+
+.welcome_btn2::after {
+    background-image: url("./img/button.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px 13px;
+    content: "";
+    padding-left: 14px;
+}
+
+/*  */
+
+.works .container {
+    padding: 120px 0;
+}
+
+.works_title {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.works_desc_title {
+    width: 514px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+
+.works_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.works_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 204px;
+    height: 141px;
+
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+
+
+}
+
+.works_title {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.works_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.works_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.works_btn {
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    max-width: 436px;
+    padding: 18px 186px;
+    border-radius: 100px;
+}
+
+.works_line {
+    border-bottom: 1px solid #ffffffc9;
+}
+
+
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+
+.footer_logoanddesc {
+    display: flex;
+    flex-direction: column;
+    max-width: 267px;
+    max-height: 159px;
+}
+
+.tooter_logo {
+    max-width: 48px;
+    max-height: 48px;
+    padding-bottom: 15px;
+}
+
+.footer_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer_list1 {
+    margin-right: -118px;
+}
+
+.footer_title {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.footer_list2 {
+    margin-right: 80px;
+}
+
+.footer_list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
