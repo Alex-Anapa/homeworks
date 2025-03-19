@@ -478,7 +478,7 @@
     height: 22px;
     top: 0;
     left: -30px;
-    background: url('./img/icons/clock.svg');
+    background: url('../img/icons/clock.svg');
 }
 
 .footer__address-time::before {
@@ -488,7 +488,7 @@
     height: 22px;
     top: 32px;
     left: -30px;
-    background: url('./img/icons/location.svg');
+    background: url('../img/icons/location.svg');
 }
 
 
@@ -526,7 +526,7 @@
     left: -30px;
     width: 22px;
     height: 22px;
-    background: url('./img/icons/copyright.svg');
+    background: url('../img/icons/copyright.svg');
 }
 
 
@@ -561,7 +561,7 @@
         left: -30px;
         width: 22px;
         height: 22px;
-        background: url('./img/icons/copyright.svg');
+        background: url('../img/icons/copyright.svg');
     }
 
 }
