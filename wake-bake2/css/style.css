@@ -953,12 +953,11 @@
 
 .footer__address-day::before {
     position: absolute;
-    content: '';
+    content: url('../img/icons/clock.svg');
     width: 22px;
     height: 22px;
     top: 0;
     left: -30px;
-    background-image: url("img/icons/clock.svg")
 }
 
 .footer__address-time::before {
@@ -968,7 +967,6 @@
     height: 22px;
     top: 32px;
     left: -30px;
-    
 }
 
 
@@ -1002,12 +1000,11 @@
 
 .footer__copy::before {
     position: absolute;
-    content: '';
+    content: url('../img/icons/copyright.svg');
     top: 0;
     left: -30px;
     width: 22px;
     height: 22px;
-    background: url("img/icons/copyright.svg");
 }
 
 
