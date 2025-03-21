@@ -1136,12 +1136,11 @@
 
     .footer__copy__media::before {
         position: absolute;
-        content: '';
+        content: url('../img/icons/copyright.svg');
         top: 0;
         left: -30px;
         width: 22px;
         height: 22px;
-        background: url("img/icons/copyright.svg");
     }
 
 }
