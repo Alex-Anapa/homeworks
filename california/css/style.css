@@ -834,7 +834,7 @@ a:hover:after {
 .footer__link {
     font-size: 17px;
     line-height: 1.27;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .footer__grid-two {
